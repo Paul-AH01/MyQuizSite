@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Quiz</title>
+    <link rel="Stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="header">
+        Welcome to my Rock 'n' Roll quiz site.
+    </h1>
+    <h1 id="subheader">
+
+    </h1>
+      <!--Question 1-->  
+    <div id="Question1" class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b>Q.1- Who was the first Rock 'n' Roll guitarist?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                <label class="options">Mick Jagger
+                    <input type="radio" name="quest1">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Chuck Berry
+                    <input type="radio" name="quest1">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">BB King
+                    <input type="radio" name="quest1">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Jimmy Hendrix
+                    <input type="radio" name="quest1">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+                <button class="btn btn-primary">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+                <button id="next1" class="btn btn-success" onclick="nextQuestion(1)">Next</button>
+            </div>
+        </div>
+    </div>
+        <!--Question 2-->
+    <div id="Question2" class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b>Q.2- Who was the first Rock band?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                <label class="options">The Rolling Stones
+                    <input type="radio" name="quest2">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">The Kinks
+                    <input type="radio" name="quest2">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Bill Hayley and The Comets
+                    <input type="radio" name="quest2">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">The Beatles
+                    <input type="radio" name="quest2">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+                <button id="next2" class="btn btn-success" onclick="nextQuestion(2)">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+                <button class="btn btn-success">Next</button>
+            </div>
+        </div>
+    </div>
+    <!--Question 3-->
+    <div id="Question3" class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b>Q.3- Who is the grandfather of Rock 'n' Roll?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                <label class="options">Bob Dylan
+                    <input type="radio" name="quest3">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Chuck Berry
+                    <input type="radio" name="quest3">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Bo Diddley
+                    <input type="radio" name="quest3">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Robert Johnson
+                    <input type="radio" name="quest3">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+                <button id="next3" class="btn btn-success" onclick="nextQuestion(3)">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+                <button class="btn btn-success">Next</button>
+            </div>
+        </div>
+    </div>
+    <!--Question 4-->
+    <div id="Question4" class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5" id="Question4"><b>Q.4- Who was the first Queen of rock?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                <label class="options">Joan Jett
+                    <input type="radio" name="quest4">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Tina Turner
+                    <input type="radio" name="quest4">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Janis Joplin
+                    <input type="radio" name="quest4">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Freddie Mercury
+                    <input type="radio" name="quest4">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+                <button id="next4" class="btn btn-success" onclick="nextQuestion(4)">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+                <button class="btn btn-success">Next</button>
+            </div>
+        </div>
+    </div>
+    <!--Question 5-->
+    <div id="Question5" class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b>Q.5- Who named Rock 'n' Roll?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                <label class="options">Alan Freed
+                    <input type="radio" name="quest5">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Brian May
+                    <input type="radio" name="quest5">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Elvis Presly
+                    <input type="radio" name="quest5">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">A clumsy geologist
+                    <input type="radio" name="quest5">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+                <button id="next5" class="btn btn-success" onclick="nextQuestion(5)">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+                <button class="btn btn-success">Next</button>
+            </div>
+        </div>
+    </div>
+    <!--Question 6-->
+    <div id="Question6" class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b>Q.6- Where did metal originate from?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                <label class="options">Norway
+                    <input type="radio" name="quest6">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">United Kingdom
+                    <input type="radio" name="quest6">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">United States
+                    <input type="radio" name="quest6">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">The Earths Crust
+                    <input type="radio" name="quest6">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+                <button id="next6" class="btn btn-success" onclick="nextQuestion(6)">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+                <button class="btn btn-success">Next</button>
+            </div>
+        </div>
+    </div>
+    <!--Question 7-->
+    <div id="Question7" class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b>Q.7- Who is the 'God' of metal?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                <label class="options">Ozzy Osborne
+                    <input type="radio" name="quest7">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Rob Halford
+                    <input type="radio" name="quest7">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Bruce Dickinson
+                    <input type="radio" name="quest7">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="options">Vulcan
+                    <input type="radio" name="quest7">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex align-items-center pt-3">
+            <div id="prev">
+                <button id="next7" class="btn btn-success" onclick="nextQuestion(7)">Previous</button>
+            </div>
+            <div class="ml-auto mr-sm-5">
+                <button class="btn btn-success">Next</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="quiz">
+        <button id="submit-btn">Get Results</button>
+    </div>
+    
+    <!--Results-->
+    <div id="results" class="justify-content-center mx-auto">
+        <h2 class="text-center">Your Rock 'n' Roll Results</h2>
+        <br /><br />
+        <p class="text-center" id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
